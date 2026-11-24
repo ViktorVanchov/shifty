@@ -32,7 +32,12 @@ Page copy uses `data-i18n` keys in `index.html`; Macedonian translations are in 
 
 ## Registration forms
 
-The two registration buttons are intentionally disabled until form URLs are provided. In `index.html`, replace each `button[data-registration]` with an anchor linking to the correct form, remove `disabled`, and update the coming-soon copy and FAQ.
+Hero, audience-card, and registration-section buttons link directly to the matching Google Form in the same tab. The header Register button leads to the choice of forms. The forms are questionnaires in Macedonian; the page explains this in both languages.
+
+- [Restaurant/company questionnaire](https://docs.google.com/forms/d/e/1FAIpQLSfoK0FfWm3SF69ETOq4QsDGu4lbcuCc0Rvu7ujj5DT_COLRrA/viewform)
+- [Worker questionnaire](https://docs.google.com/forms/d/e/1FAIpQLSdgBvmyeItlzpUliH3jFv2BsTFVbWh77Y2zmos-AJJ7jHS9HA/viewform)
+
+To replace a form, update all three matching `a[data-registration]` links in `index.html`.
 
 ## Brand
 
