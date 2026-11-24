@@ -20,8 +20,15 @@ Then open http://localhost:8000.
 
 - `index.html` — page content and structure
 - `styles.css` — responsive layout and styling
+- `language.js` — Macedonian/English translations and language preference
 - `favicon.svg` — browser icon
 - `.nojekyll` — serves the files directly without Jekyll processing
+
+## Languages
+
+Use the MK / ENG switch in the header to change the full page between Macedonian and English. The selection is saved locally in the visitor's browser. On a first visit, a Macedonian browser uses MK; other browsers use ENG. If browser storage is unavailable, the switch still works for the current visit. English remains available when JavaScript is disabled.
+
+Page copy uses `data-i18n` keys in `index.html`; Macedonian translations are in `language.js`. Accessibility labels, page title, and description also change with the selected language.
 
 ## Registration forms
 
